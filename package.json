@@ -1,6 +1,6 @@
 {
-  "name": "space",
-  "version": "0.0.1",
+  "name": "etc-design",
+  "version": "0.0.2",
   "description": "A mobile UI Components library and React-based implementation.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
