@@ -2,24 +2,25 @@
   "name": "space",
   "version": "0.0.1",
   "description": "A mobile UI Components library and React-based implementation.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "Bruce",
+    "email": "jsonp@foxmail.com"
+  },
+  "repository": "git@github.com:huangjiehai/space.git/space",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "father doc dev",
+    "build": "father build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huangjiehai/space.git"
+  "peerDependencies": {
+    "react": "16.x"
   },
-  "keywords": [
-    "react",
-    "ui",
-    "components",
-    "mobile"
-  ],
-  "author": "starcoder0",
+  "devDependencies": {
+    "father": "^2.16.0"
+  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/huangjiehai/space/issues"
-  },
-  "homepage": "https://github.com/huangjiehai/space#readme"
+  "files": [
+    "dist"
+  ]
 }
